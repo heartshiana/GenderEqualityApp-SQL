@@ -1,10 +1,10 @@
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\bin\Debug\genderequallitytest.exe.config
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\bin\Debug\genderequallitytest.exe
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\bin\Debug\genderequallitytest.pdb
-C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\obj\Debug\genderequallitytest.csproj.AssemblyReference.cache
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\obj\Debug\genderequallitytest.Form1.resources
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\obj\Debug\genderequallitytest.Properties.Resources.resources
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\obj\Debug\genderequallitytest.csproj.GenerateResource.cache
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\obj\Debug\genderequallitytest.csproj.CoreCompileInputs.cache
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\obj\Debug\genderequallitytest.exe
 C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\obj\Debug\genderequallitytest.pdb
+C:\Users\acer\OneDrive\Documents\GitHub\genderequalityapptest\genderequallitytest\obj\Debug\genderequallitytest.Listitems.resources

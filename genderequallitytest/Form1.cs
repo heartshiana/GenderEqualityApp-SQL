@@ -26,7 +26,22 @@ namespace genderequallitytest
             
             con.Open();
 
-            SqlCommand cmd = new SqlCommand("INSERT INTO reportsOfUser (Username, Experience) VALUES(@Username, @Experience);", con); 
+            SqlCommand cmd = new SqlCommand("INSERT INTO reportsOfUser (Username, Experience) VALUES(@Username, @Experience);", con);
+            
+           
+            /* SqlDataReader myReader = null;
+            SqlCommand myCommand = new SqlCommand("SELECT * FROM reportsOfUser", con);
+           myReader  = myCommand.ExecuteReader();
+            do
+            {
+                while (myReader.Read())
+                {
+                    linkLabel1.Text = myReader["title"].ToString();
+                    label1.Text = myReader["authorName"].ToString();
+                    label2.Text = myReader["datePublished"].ToString();
+
+                }
+            } while (myReader.Read()); */
 
             cmd.Parameters.AddWithValue("Username", textBox1.Text);
             cmd.Parameters.AddWithValue("Experience", richTextBox1.Text);
@@ -44,6 +59,47 @@ namespace genderequallitytest
 
             MessageBox.Show("Sent in database");
 
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+        private void populateItem()
+        {
+            Listitems[] listItems = new Listitems[20];
+            for (int i = 0; i < listItems.Length; i++){
+                listItems[i] = new Listitems();
+                listItems[i].Title = "Get your data";
+                listItems[i].message = "Any data source";
+                if (flowLayoutPanel1.Controls.Count > 0) {
+                    flowLayoutPanel1.Controls.Clear();
+                }
+                else {
+                    flowLayoutPanel1.Controls.Add(listItems[i]);
+                }
+            } 
+
+        }
+
+        private void listitems1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listitems2_Load(object sender, EventArgs e)
+        {
 
         }
     }
